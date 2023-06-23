@@ -1,0 +1,16 @@
+app-containers/docker
+app-containers/docker-compose
+app-editors/vim
+www-client/pybugz
+app-emulation/virt-manager
+sys-apps/ripgrep
+dev-vcs/git
+app-admin/ansible
+app-containers/lxd
+app-misc/tmux
+dev-libs/libisoburn
+acct-group/libvirt
+www-servers/nginx
+app-crypt/certbot
+www-apps/hugo
+app-misc/jq

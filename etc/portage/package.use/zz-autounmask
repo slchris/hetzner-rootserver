@@ -1,0 +1,27 @@
+# package.use# required by net-misc/networkmanager-1.42.6-r1::gentoo[-iwd,wifi]
+# required by @common-utils (argument)
+>=net-wireless/wpa_supplicant-2.10-r1 dbus
+# required by app-portage/pfl-3.2-r2::gentoo[network-cron]
+# required by @common-utils (argument)
+>=sys-apps/util-linux-2.38.1-r2 caps
+# required by www-servers/nginx-1.23.3::gentoo
+# required by @dev-utils (argument)
+>=app-misc/mime-types-2.1.53 nginx
+# required by app-emulation/libvirt-9.3.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by @dev-utils (argument)
+>=net-dns/dnsmasq-2.89 script
+# required by app-containers/lxd-5.0.2-r2::gentoo
+# required by @dev-utils (argument)
+>=dev-libs/raft-0.17.1 lz4
+# required by app-containers/lxd-5.0.2-r2::gentoo
+# required by @dev-utils (argument)
+>=dev-util/xdelta-3.0.11-r1 lzma
+# required by app-containers/lxd-5.0.2-r2::gentoo
+# required by @dev-utils (argument)
+>=sys-fs/squashfs-tools-4.6.1 lzma
+# required by app-containers/lxc-5.0.2::gentoo[tools,caps]
+# required by app-containers/lxd-5.0.2-r2::gentoo
+# required by @dev-utils (argument)
+>=sys-libs/libcap-2.69 static-libs
